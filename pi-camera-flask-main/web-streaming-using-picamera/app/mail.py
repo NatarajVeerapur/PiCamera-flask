@@ -11,7 +11,7 @@ from email.mime.image import MIMEImage
 server = smtplib.SMTP('smtp.gmail.com',587)
 server.starttls()
 
-server.login('ranganathb.mca22@rvce.edu.in','Color2001smell')
+server.login('ranganathb.mca22@rvce.edu.in','')
 
 msg = MIMEMultipart()
 msg['Subject'] = 'Image Attachment Test'
