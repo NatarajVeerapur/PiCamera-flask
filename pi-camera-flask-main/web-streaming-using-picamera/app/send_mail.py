@@ -22,7 +22,7 @@ def send_mail(image_path):
     smtp_server = 'smtp.gmail.com'
     smtp_port = 587  # Use 465 for SSL or 587 for TLS
     smtp_username = 'ranganathb.mca22@rvce.edu.in'
-    smtp_password = 'Color2001smell'
+    smtp_password = ''
 
 
 
